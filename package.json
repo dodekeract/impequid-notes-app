@@ -1,0 +1,34 @@
+{
+  "name": "impequid-notes-app",
+  "version": "0.0.1",
+  "description": "Note-taking app for impequid.",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodekeract/impequid-notes-app.git"
+  },
+  "keywords": [
+    "impequid",
+    "notes"
+  ],
+  "author": "Florian Wendelborn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dodekeract/impequid-notes-app/issues"
+  },
+  "homepage": "https://github.com/dodekeract/impequid-notes-app#readme",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "flux-constants": "^0.2.2",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "react": "^0.14.6",
+    "react-router": "^2.0.0-rc5",
+    "reactify": "^1.1.1"
+  }
+}
